@@ -1,0 +1,75 @@
+:root {
+    --primary: #1B244A;
+    --secondary: #9AABD8;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: space-evenly;
+    max-width: 500px;
+    min-height: fit-content;
+    margin: 0 auto;
+    padding: 50px;
+    background: var(--primary);
+    color: white;
+}
+
+.score {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 155px;
+    min-height: fit-content;
+    margin: 0;
+    padding: 15px 0 0;
+    border-radius: 5px;
+    background-color: black;
+    color: #F94F6D;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: 90px;
+}
+
+.score-btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 8px;
+}
+
+.addpoints-btn {
+    max-width: 50px;
+    background: none;
+    margin: 20px 0;
+    border: 2px solid var(--secondary);
+    border-radius: 5px;
+    padding: 8px;
+    color: var(--secondary);
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: 20px;
+}
+
+.reset {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+
+.reset-btn {
+    max-width: fit-content;
+    background: none;
+    margin: 20px auto 0;
+    border: 2px solid var(--secondary);
+    border-radius: 5px;
+    padding: 8px;
+    color: var(--secondary);
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: 20px;
+}
